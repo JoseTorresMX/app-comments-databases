@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comentarios en tiempo real</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Comentarios en Tiempo Real</h1>
+    <span>Jose Angel Torres Santos #Control: 19112115</span>
+    <form id="formulario">
+      <input type="text" id="nombre" placeholder="Tu nombre" required />
+      <input
+        type="email"
+        id="email"
+        placeholder="Tu correo electrónico"
+        required
+      />
+      <input type="text" id="comentario" placeholder="Tu comentario" required />
+      <button type="submit">Enviar</button>
+    </form>
+    <h2>Comentarios:</h2>
+    <div id="lista-comentarios"></div>
+
+    <script src="https://unpkg.com/rxjs@7.5.0/dist/bundles/rxjs.umd.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
